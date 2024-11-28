@@ -1,0 +1,20 @@
+{
+  "name": "hexo-language-switch",
+  "version": "0.0.1",
+  "description": "A Hexo plugin for switching between multiple language versions of posts",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "language",
+    "switch"
+  ],
+  "author": "thinkwee",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
