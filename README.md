@@ -1,8 +1,10 @@
-<p align="center">
-  <img src='./logo.png' width=200>
-</p>
+<div align="center">
+  <img src='./logo.png' width="200" alt="Translation Robot Logo">
+  <p>The <b>T</b>ranslation Plugin for Hexo Next-Theme Blog</p>
+</div>
 
-# hexo-language-switch
+
+# hexo-translation-switch
 
 A [Hexo](https://hexo.io/zh-cn/) plugin that enables seamless switching between multiple language versions of your posts. It is suitable for the hexo [next](https://github.com/next-theme/hexo-theme-next) theme.
 
@@ -15,7 +17,7 @@ A [Hexo](https://hexo.io/zh-cn/) plugin that enables seamless switching between 
 ## Installation
 - clone this repo then
 ```bash
-npm install hexo-language-switch
+npm install hexo-translation-switch
 ```
 
 ## Usage
