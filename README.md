@@ -43,7 +43,7 @@ YOUR_ENGLISH_POST_HERE
 YOUR_CHINESE_POST_HERE
 {% endlang_content %}
 ```
-- where use ``language_switch`` to put your language switch buttom and use ``lang_content`` to wrap your post in different languages
+- where you can use ``language_switch`` to put your language switch buttom and use ``lang_content`` to wrap your post in different languages
 
 ## License
 
