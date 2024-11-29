@@ -1,3 +1,7 @@
+<p align="center">
+  <img src='./logo.png' width=200>
+</p>
+
 # hexo-language-switch
 
 A [Hexo](https://hexo.io/zh-cn/) plugin that enables seamless switching between multiple language versions of your posts. It is suitable for the hexo [next](https://github.com/next-theme/hexo-theme-next) theme.

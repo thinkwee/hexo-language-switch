@@ -1,6 +1,6 @@
 {
   "name": "hexo-language-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hexo plugin for switching between multiple language versions of posts",
   "main": "index.js",
   "keywords": [
