@@ -51,24 +51,8 @@ hexo.extend.tag.register('lang_content', function(args, content) {
   const defaultLang = 'en';
   const display = lang === defaultLang ? 'block' : 'none';
   
-  let processedContent = content.replace(
-    /(#{1,6})\s+(.*?)(?:\n|$)/g,
-    function(match, hashes, title) {
-      if (/{#.*}/.test(title)) {
-        return match;
-      }
-      
-      const baseTitle = title.trim();
-      const slug = baseTitle
-        .toLowerCase()
-        .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, '-')  
-        .replace(/^-|-$/g, '');
-      
-      return hashes + ' ' + baseTitle + ' {#' + slug + '}\n';
-    }
-  );
-  
-  const rendered = hexo.render.renderSync({text: processedContent, engine: 'markdown'});
+  // 直接渲染内容，让 Hexo 处理标题 ID
+  const rendered = hexo.render.renderSync({text: content, engine: 'markdown'});
   
   return '<div id="' + lang + '-content" class="lang-content" style="display: ' + display + ';">' +
     rendered +
