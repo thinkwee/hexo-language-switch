@@ -46,9 +46,9 @@ YOUR_CHINESE_POST_HERE
 - where you can use ``language_switch`` to put your language switch buttom and use ``lang_content`` to wrap your post in different languages
 
 ## Known Issues (working on it)
-- only works for hexo next theme.
-- if the titles of chinese/english post are the same, the chinese toc will not work.
-- some animation does not behave as smoothly as original next theme.
+[ ] only works for hexo next theme.
+[ ] if the titles of chinese/english post are the same, the chinese toc will not work.
+[x] some animation does not behave as smoothly as original next theme. (Now fixed)
 
 ## License
 
