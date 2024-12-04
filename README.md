@@ -6,7 +6,8 @@
 
 # hexo-translation-switch
 
-A [Hexo](https://hexo.io/zh-cn/) plugin that enables seamless switching between multiple language versions of your posts. It is suitable for the hexo [next](https://github.com/next-theme/hexo-theme-next) theme.
+- A [Hexo](https://hexo.io/zh-cn/) plugin that enables seamless switching between multiple language versions of your posts. It is suitable for the hexo [next](https://github.com/next-theme/hexo-theme-next) theme.
+- Check example [here](https://thinkwee.top/2024/04/23/next-on-llm/#more)
 
 
 # Features
